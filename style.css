@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(193, 186, 231);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.article1 {
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    gap: 15px; /* Espaço entre imagem e texto */
+    margin-bottom: 20px; /* Espaço entre os blocos */
+}
+
+.article1 a {
+    color: black;
+    float: left;
+}
+
+.article1 img {
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Deixa as bordas levemente arredondadas */
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.article1 p {
+    color: black;
+}
+
+.article2 {
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    gap: 15px; /* Espaço entre imagem e texto */
+    margin-bottom: 20px; /* Espaço entre os blocos */
+}
+
+.article2 a {
+    color: black;
+    float: right;
+}
+
+/* Define um tamanho fixo para as imagens */
+.article2 img {
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Deixa as bordas levemente arredondadas */
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.article2 p {
+    color: black;
+}
+
+.article3 {
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    gap: 15px; /* Espaço entre imagem e texto */
+    margin-bottom: 20px; /* Espaço entre os blocos */
+}
+
+.article3 a {
+    color: black;
+    float: left;
+}
+
+/* Define um tamanho fixo para as imagens */
+.article3 img {
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Deixa as bordas levemente arredondadas */
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.article3 p {
+    color: black;
+}
